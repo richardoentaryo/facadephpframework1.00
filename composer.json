@@ -1,20 +1,17 @@
 {
     "name": "richardoentaryo/fpf1.00",
-    "type": "final project - open source",
     "description": "A small, simple, and naked PHP MVC framework skeleton that encapsulates a lot of features also implements security layers.",
-    "keywords": ["framework", "authentication", "mvc", "security", "encryption", "validation", "files"],
-    "license": "ISTTS - Personal License",
     "authors": [
         {
             "name": "Richard Oentaryo",
-            "email": "richardoentaryo@gmail.com",
-            "role": "Developer"
+            "email": "richardoentaryo@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         
     },
     "autoload": {
-    	"psr-4": { "": ["app/core/", "app/models/", "app/controllers/"] }
+    	"psr-4": { "": ["FPF-C/", "FPF-M/", "FPF-V/"] }
     }
 }
